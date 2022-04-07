@@ -8,15 +8,15 @@
 <div class="wrapper">
 
   <div class="header">
-    <h1 class="header__title">Taux de vote</h1>
-    <h2 class="header__subtitle">par classes</h2>
+    <h1 class="header__title">{% trans %} Taux de vote {% endtrans %}</h1>
+    <h2 class="header__subtitle">{% trans %} par classes {% endtrans %}</h2>
   </div>
 
   <div class="cards">
   {% for tableauCount in tableauCounts %}
     <div class=" card ">
       <div class="card__inner">
-        <span> <em>{{tableauCount.count}} {{tableauCount.name}}</em><br/> {% if tableauCount.count == '1' %}a voté ! {% else %} ont voté !{% endif %}</span>
+        <span> <em>{{tableauCount.count}} {{tableauCount.name}}</em><br/> {% if tableauCount.count == '1' %}{% trans %}a voté ! {% endtrans %} {% else %} {% trans %}ont voté ! {% endtrans %}{% endif %}</span>
       </div>
     </div>
     {% endfor %}
@@ -24,9 +24,4 @@
   </div>
 
 </div>
-
-
-
-  
-
 {% endblock %}

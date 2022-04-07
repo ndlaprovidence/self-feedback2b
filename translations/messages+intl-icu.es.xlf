@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="es" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="MS.ZWPV" resname="Taux de vote">
+        <source>Taux de vote</source>
+        <target>Tasa de votación</target>
+      </trans-unit>
+      <trans-unit id="zshCvYz" resname="par classes">
+        <source>par classes</source>
+        <target>por clases</target>
+      </trans-unit>
+      <trans-unit id="3Ts2Plz" resname="a voté !">
+        <source>a voté !</source>
+        <target>ha votado !</target>
+      </trans-unit>
+      <trans-unit id="QehgXqn" resname="ont voté !">
+        <source>ont voté !</source>
+        <target>votado !</target>
+      </trans-unit>
+      <trans-unit id="_1_eksG" resname="Déconnexion">
+        <source>Déconnexion</source>
+        <target>Cerrar sesión</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
